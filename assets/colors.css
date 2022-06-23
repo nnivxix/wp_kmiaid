@@ -1,0 +1,14 @@
+:root {
+  --main-bg-color: #FCFCFC;
+  --main-text-color: #4d4d4d;
+  --sec-bg-color: #3C4F76;
+  --sec-blue-mid: #145c9e;
+  --accent-color: #63c132;
+}
+
+/* example */
+
+.test__color{
+  color: var(--main-text-color);
+  background-color: var(--accent-color);
+}
