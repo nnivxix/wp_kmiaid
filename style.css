@@ -1,0 +1,45 @@
+/* 
+Theme Name: KM IAID CIAMIS
+Text Domain: kmiaidciamis.com
+Version: 1.0.0
+Description: Satu webiste untuk semuanya.
+Tags: Stylish, Modern, minimalist
+Author: Hanasa
+Author URI: https://github.com/nnivxix
+*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+#menu-toggle:checked+#menu {
+  display: block;
+}
+
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+.menu-nav{
+  display: block;
+}
+
+ul#menu {
+  padding-top: 24px;
+}
+
+@media (min-width: 992px) {
+  #menu > li {
+    padding: 0 12px;
+  }
+  .menu-nav {
+    display: flex;
+  }
+  ul#menu {
+    padding-top: 0px;
+    justify-content: end;
+  }
+}
