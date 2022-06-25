@@ -1,5 +1,5 @@
 <footer class="bg-[#3C4F76] px-20 flex flex-col items-center py-16 w-full  text-[#fcfcfc] font-semibold">
-    <img src="./public/logo-iaid.png" alt="" class="h-[56px]">
+    <img src="<?php echo get_template_directory_uri( )  . "/assets/logo-iaid.png" ; ?>" alt="" class="h-[56px]">
     <h1 class="text-xl pt-4">KM IAID</h1>
     <nav class="w-full py-8 md:w-1/2 ">
       <ul class="flex justify-between">

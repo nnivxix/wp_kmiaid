@@ -1,3 +1,5 @@
 How to Display Recent Posts From a Specific Category in WordPress
 https://www.wpbeginner.com/wp-tutorials/how-to-display-recent-posts-from-a-specific-category-in-wordpress/
 
+How to get only text from wordpress post content?
+https://wordpress.stackexchange.com/questions/17965/how-to-get-only-text-from-wordpress-post-content
