@@ -29,7 +29,8 @@ wp_head();
       }
       ?>
       <img src="<?php echo $logo[0] ?>" class="lg:h-10 h-8" alt="<?php echo bloginfo(); ?>">
-      <h1 class="pl-5 text-2xl text-gray-800 font-bold">KM IAID</h1>
+      <a href="<?php echo get_site_url()  ; ?>"><h1 class="pl-5 text-2xl text-gray-800 font-bold">KM IAID</h1></a>
+      
     </div>
 
     <label id="menu-toggle1" class="block lg:hidden cursor-pointer flex items-center px-3 py-2 border rounded text-gray-800 border-gray-800 hover:text-gray-800 hover:border-gray-800" for="menu-toggle"><svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">

@@ -48,7 +48,7 @@ get_header();
     <h1 class="text-3xl font-bold p-5 col-span-2">Berita dan Catatan</h1>
     
     <?php
-      $args = array( 'posts_per_page' => 5, 'offset'=> 1, 'category' => 'berita' );
+      $args = array( 'posts_per_page' => 4, 'offset'=> 1, 'category' => 'organisasi' );
       $myposts = get_posts( $args );
       foreach ( $myposts as $post ) {
         $post_name =  $post->post_name;
@@ -58,7 +58,7 @@ get_header();
         // var_dump($post);
       ?>
         <article class="p-5 col-span-2 md:col-span-1" >
-          <h1 class="text-xl"><a href="<?php echo get_site_url() . '/' . $post_name  ?>"> <?php echo  $post_title; ?></a></h1>
+          <h1 class="text-xl"><a href="<?php echo get_site_url() . '/' . $post_name  ?>"> <?php echo strlen($post_title) > 55 ? substr($post_title,0,55) . '...' : $post_title; ?></a></h1>
           <p class="text-xs py-3"><?php echo 'admin' . ' • '  . $pos_modi ; ?></p>
           <div>
             <?php echo substr( strip_tags( $post->post_content ),0,235) . '...'; ?>

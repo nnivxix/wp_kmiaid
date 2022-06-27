@@ -30,6 +30,16 @@ Author URI: https://github.com/nnivxix
 ul#menu {
   padding-top: 24px;
 }
+.blog-post {
+  margin: 10px 50px;
+}
+.blog-post h1 {
+  font-size: 32px;
+  font-weight: 700;
+}
+.blog h2 {
+  font-size: ;
+}
 
 @media (min-width: 992px) {
   #menu > li {
