@@ -18,9 +18,9 @@ wp_head();
 
 </head>
 
-<body class="bg-[#fcfcfc]">
+<body class="bg-[#fcfcfc]" style="background-color: #fcfcfc;">
 
-  <nav class="flex items-center justify-between flex-wrap bg-white p-6 ">
+  <nav class="flex items-center justify-between flex-wrap bg-white p-6 nav-top " style="background-color:#fcfcfc ;">
     <div class="flex items-center flex-shrink-0 text-white mr-6">
       <?php
       if (function_exists('the_custom_logo')) {

@@ -2,8 +2,7 @@
 get_header();
 ?>
 
-<article class="content px-3 py-5 p-md-5">
-  <h1>hello WP</h1>
+<article class="content single px-3 py-5 p-md-5">
 
   <?php
   if (have_posts()) {

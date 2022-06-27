@@ -41,6 +41,44 @@ ul#menu {
   font-size: ;
 }
 
+.container{
+  margin: 12px 36px;
+}
+
+.organisasi li {
+  padding: 5px 0 !important;
+}
+
+/* nav top */
+
+.nav-top ul li a:hover{
+  color: #63c132;
+}
+.nav-top ul li a{
+  font-weight: 600;
+}
+
+/* berita posts list */
+.container ul.berita li a {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.container ul.berita li{
+  padding: 12px 0;
+}
+
+/* nav */
+.nav-top{
+  margin: 0 90px;
+}
+
+/* single post */
+.single .container p {
+  font-size: 16px !important;
+    padding: 14px 0;
+}
+
 @media (min-width: 992px) {
   #menu > li {
     padding: 0 12px;
@@ -51,5 +89,49 @@ ul#menu {
   ul#menu {
     padding-top: 0px;
     justify-content: end;
+  }
+
+  .nav-top{
+    margin: 0 260px;
+  }
+
+
+  .container{
+    margin: 12px 260px;
+  }
+  /* organiasi */
+  .organisasi li {
+    padding: 5px 0 !important;
+  }
+  
+  /* berita posts list */
+  .container ul.berita li a {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  
+  .container ul.berita li{
+    padding: 12px 0;
+  }
+  
+  
+  /* single post */
+  .single{
+    margin: 0 280px;
+  }
+  .single .container p {
+    font-size: 16px !important;
+      padding: 14px 0;
+  }
+
+  /* margin blok image organiasai */
+  .ml-sz{
+    /* margin-right: 640px; */
+    padding-left: 0;
+  }
+
+  /* blog */
+  .blog{
+    padding: 100px 240px;
   }
 }
