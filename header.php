@@ -29,7 +29,7 @@ wp_head();
       }
       ?>
       <img src="<?php echo $logo[0] ?>" class="lg:h-10 h-8" alt="<?php echo bloginfo(); ?>">
-      <a href="<?php echo get_site_url()  ; ?>"><h1 class="pl-5 text-2xl text-gray-800 font-bold">KM IAID</h1></a>
+      <a href="<?php echo get_site_url()  ; ?>"><h1 class="pl-5 text-2xl text-gray-800 font-bold">KM IAID CIAMIS</h1></a>
       
     </div>
 

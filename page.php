@@ -9,8 +9,8 @@ get_header();
     while (have_posts()) {
 
       the_post();
-      var_dump(get_the_category());
-      var_dump(get_categories()) ;
+      // var_dump(get_the_category());
+      // var_dump(get_categories()) ;
       get_template_part( 'template-parts/content', 'page' );
     }
   }

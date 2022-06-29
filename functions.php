@@ -22,7 +22,7 @@ function kmiaid_style()
 {
   // $version = wp_get_theme()->get('Version');
   wp_enqueue_style( 'kmiaid-twcss', get_template_directory_uri() . '/assets/css/tw.css');
-  wp_enqueue_style('kmiaid-style', get_template_directory_uri() . "/style.css", array("kmiaid-tw"), null, "all");
+  wp_enqueue_style('kmiaid-style', get_template_directory_uri() . "/style.css", array("kmiaid-tw"), "1.0.1");
   wp_enqueue_style('kmiaid-tw', "https://cdn.tailwindcss.com");
   wp_enqueue_style('kmiaid-font-inter', "https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 

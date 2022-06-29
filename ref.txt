@@ -3,3 +3,7 @@ https://www.wpbeginner.com/wp-tutorials/how-to-display-recent-posts-from-a-speci
 
 How to get only text from wordpress post content?
 https://wordpress.stackexchange.com/questions/17965/how-to-get-only-text-from-wordpress-post-content
+
+WordPress 101 - Part 10: Filter the WP_Query with categories
+https://www.youtube.com/watch?v=e8nJMopiH2Q
+https://github.com/Alecaddd/WordPress101/blob/master/lesson_10/page-home.php

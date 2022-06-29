@@ -67,16 +67,36 @@ ul#menu {
 .container ul.berita li{
   padding: 12px 0;
 }
+.nav-top #menu li {
+  list-style: none;
+}
+
+.organisasi li a {
+  font-weight: 700;
+}
 
 /* nav */
 .nav-top{
-  margin: 0 90px;
+  margin: 0 0px;
 }
 
 /* single post */
+.single {
+  marging: 0 120px;
+}
 .single .container p {
   font-size: 16px !important;
     padding: 14px 0;
+}
+.single h1 {
+  margin: 0 40px;   
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* bottom nav */
+footer nav ul li, footer ul li {
+  list-style: none;
 }
 
 @media (min-width: 992px) {
@@ -91,13 +111,17 @@ ul#menu {
     justify-content: end;
   }
 
-  .nav-top{
-    margin: 0 260px;
+  .nav-top, .single h1 {
+    margin: 0 80px;
+  }
+
+  .nav-top #menu li, footer nav ul li, footer ul li {
+    list-style: none;
   }
 
 
   .container{
-    margin: 12px 260px;
+    margin: 12px 100px;
   }
   /* organiasi */
   .organisasi li {
@@ -109,6 +133,24 @@ ul#menu {
     font-size: 16px;
     font-weight: 700;
   }
+
+  .berita li {
+    display: grid;
+    grid-template-rows: 60px 110px;
+    grid-template-columns: 240px 1fr;
+    gap: 8px;
+
+  }
+  .berita li .wp-block-latest-posts__featured-image {
+    grid-column:  1;
+    grid-row:  1/3;
+  }
+  .berita a {
+    grid-row: 1;
+  }
+  .berita li .wp-block-latest-posts__post-excerpt {
+    grid-row:  2/  3;
+  }
   
   .container ul.berita li{
     padding: 12px 0;
@@ -116,12 +158,15 @@ ul#menu {
   
   
   /* single post */
-  .single{
-    margin: 0 280px;
-  }
+
   .single .container p {
     font-size: 16px !important;
       padding: 14px 0;
+  }
+  .single h1 {
+    margin:0 80px;
+    font-size: 22px;
+    font-weight: 600;
   }
 
   /* margin blok image organiasai */
@@ -131,7 +176,7 @@ ul#menu {
   }
 
   /* blog */
-  .blog{
+  /* .blog{
     padding: 100px 240px;
-  }
+  } */
 }
